@@ -1,11 +1,60 @@
-<!Doctype html>
-  <html>
-  <head>
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- meta data-->
+    <meta charset='utf-8'>
+    <title>Rock Paper Scissors</title>
+    <meta name="description" content="rock paper scissors game">
+    <meta name="keywords" content="Javascript game">
+    <meta name="author" content="Abongile Mavela">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- external css file for styling -->
+   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+</head>
+<body>
 
-  </head>
-  <body>
+    <section class="game">
+        <!--Title -->
+        <div class="title">Rock Paper Scissor</div>
 
-  <h1>This worked if you can see this text </h1>
+          <!--Display Score of player and computer -->
+        <div class="score">  
 
-  </body>
-  </html>
+            <div class="playerScore">
+
+                <h2>Player</h2>
+
+                <p class="p-count count">0</p>
+
+            </div>       
+
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+
+            </div>
+        </div>
+
+        <div class="move">Choose your move</div>
+          <!--Number of moves left before game ends -->
+        <div class="movesleft">Rounds left: 5</div>
+        <div class="verdict"> </div>
+
+          
+          <!--Options available to player to play game -->
+        <div class="options">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>    
+        </div>
+
+          
+    </section> 
+    <script src='main.js'></script>
+
+
+    
+</body>
+</html>
